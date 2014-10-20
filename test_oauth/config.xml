@@ -16,8 +16,6 @@
 
         <preference name="phonegap-version" value="3.5.0" />
 
-        <name>Sample Config.xml</name>
-
         <description>
         An example for phonegap build docs. 
         </description>
