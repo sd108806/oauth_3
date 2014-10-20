@@ -136,14 +136,12 @@ document.write('<br/>'+'<br/>'+'<br/>');
 			document.write('request_oauth_token '+ request_oauth_token +'<br/>'+'<br/>');
 			*/
 			
-
 			
-			
-			
-			
+			test_jsonform();
 			
 			get_event();
 			
+				
 			
 			}
 
