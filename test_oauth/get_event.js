@@ -58,6 +58,8 @@ document.write('obj.count  ' +'<br/>'+ obj.count+ '<br/>'+ '<br/>'+ '<br/>');
 
 document.write('obj.events[0].node  ' + obj.events[0].node+ '<br/>');
 
+document.write('obj.events[0].description.commits[0].description ' + obj.events[0].description.commits[0].description+ '<br/>');
+
 }
 
 
