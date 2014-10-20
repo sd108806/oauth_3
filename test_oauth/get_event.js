@@ -50,9 +50,11 @@ document.write('request is success  ' + '<br/>');
 
 document.write('xmldoc  ' + xmldoc  +'<br/>');
 
+var obj = str.parseJSON();
 
-document.write('xmldoc.count  ' + xmldoc.count+ '<br/>');
-document.write('xmldoc.events[0].commits.description  ' + xmldoc.events[0].commits.description+ '<br/>');
+
+document.write('obj.count  ' + obj.count+ '<br/>');
+document.write('obj.events[0].commits.description  ' + obj.events[0].commits.description+ '<br/>');
 
 }
 
