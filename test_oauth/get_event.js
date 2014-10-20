@@ -48,12 +48,12 @@ if (xmlhttp.readyState==4 && xmlhttp.status==200)
 {
 document.write('request is success  ' + '<br/>');
 
-document.write('xmldoc  ' + xmldoc  +'<br/>');
+document.write('xmldoc  ' + xmldoc  +'<br/>'+'<br/>'+'<br/>');
 
 var obj = str.parseJSON();
 
 
-document.write('obj.count  ' + obj.count+ '<br/>');
+document.write('obj.count  ' + obj.count+ '<br/>'+ '<br/>'+ '<br/>');
 document.write('obj.events[0].commits.description  ' + obj.events[0].commits.description+ '<br/>');
 
 }
