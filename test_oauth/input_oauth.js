@@ -96,17 +96,6 @@ document.write('my_request_token_string '+my_request_token_string+'<br/>');
 
 
 
-
-
-  
- $( document ).bind( "mobileinit", function() { 
-   $.support.cors = true;    
-   $.mobile.allowCrossDomainPages = true; 
-}); 
- 
- 
- 
- 
   // make a xmlhttp request call note: phonegap only allow xmlhttprequest function in crossdomain but ajax,jsonp, getjson
 	
 	
