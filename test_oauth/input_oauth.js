@@ -98,7 +98,7 @@ document.write('my_request_token_string '+my_request_token_string+'<br/>');
 
   // make a xmlhttp request call note: phonegap only allow xmlhttprequest function in crossdomain but ajax,jsonp, getjson
 	
-	
+	/*
 	var xmlhttp=new XMLHttpRequest();
 	xmlhttp.open('post',my_request_token_string,false);
 	xmlhttp.send(null);
@@ -106,7 +106,7 @@ document.write('my_request_token_string '+my_request_token_string+'<br/>');
 document.write('xmlhttp.responseText  '+xmlhttp.responseText+'<br/>'+'<br/>');
 document.write('xmldoc ' + xmldoc+'<br/>'+'<br/>');
 document.write('<br/>'+'<br/>'+'<br/>');
-
+*/
 
 	
 	/*  test how to cat the result into request_token_secrete and request_token
@@ -124,7 +124,7 @@ document.write('<br/>'+'<br/>'+'<br/>');
 		*/	
 	
 	
-	
+	/*
 		var n1=xmldoc.indexOf('&',0);  // find the location of the first '&'
 			document.write('n1 '+n1+'  ' );
 			var request_oauth_token_secrete=xmldoc.substring(0,n1);   // get oauth token secrete
@@ -134,7 +134,7 @@ document.write('<br/>'+'<br/>'+'<br/>');
 			document.write('n2 '+n2 +'  ');
 			var request_oauth_token=xmldoc.substring(n1+1,n2);   // get oauth token secrete
 			document.write('request_oauth_token '+ request_oauth_token +'<br/>'+'<br/>');
-			
+			*/
 			
 			get_event();
 			

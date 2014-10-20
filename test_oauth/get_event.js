@@ -18,7 +18,7 @@ var myoauth=new OAuth(test_opts);
 
 myoauth.nonce=myoauth.getNonce();
 
-myoauth.signature=myoauth.consumer.public+'%26' ;
+myoauth.signature=myoauth.consumer.secret+'%26' ;
 
 myoauth.timestamp=myoauth.getTimeStamp();
 
