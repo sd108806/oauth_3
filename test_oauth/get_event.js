@@ -37,10 +37,12 @@ document.write('my_event_string  ' + my_event_string+'<br/>');
 	xmlhttp.open('GET',my_event_string,false);
 	xmlhttp.send();
 	xmldoc=xmlhttp.responseText;
-document.write('xmlhttp.responseText'+xmlhttp.responseText+'<br/>'+'<br/>');
+
+	/*
+	document.write('xmlhttp.responseText'+xmlhttp.responseText+'<br/>'+'<br/>');
 document.write('xmldoc ' + xmldoc+'<br/>'+'<br/>');
 document.write('<br/>'+'<br/>'+'<br/>');
-
+*/
 
 
 document.write('xmldoc.count  ' + xmldoc.count+ '<br/>');
