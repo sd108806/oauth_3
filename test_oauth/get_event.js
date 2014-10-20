@@ -44,6 +44,9 @@ document.write('xmldoc ' + xmldoc+'<br/>'+'<br/>');
 document.write('<br/>'+'<br/>'+'<br/>');
 */
 
+if (xmlhttp.readyState==4 && xmlhttp.status==200)
+{
+document.write('request is success  ' + '<br/>');
 
 document.write('xmldoc.count  ' + xmldoc.count+ '<br/>');
 document.write('xmldoc.events[0].commits.description  ' + xmldoc.events[0].commits.description+ '<br/>');
