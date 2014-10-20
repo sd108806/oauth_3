@@ -34,8 +34,8 @@ document.write('my_event_string  ' + my_event_string+'<br/>');
 
 	
 	var xmlhttp=new XMLHttpRequest();
-	xmlhttp.open('get',my_event_string,false);
-	//xmlhttp.send(null);
+	xmlhttp.open('GET',my_event_string,false);
+	xmlhttp.send();
 	xmldoc=xmlhttp.responseText;
 document.write('xmlhttp.responseText'+xmlhttp.responseText+'<br/>'+'<br/>');
 document.write('xmldoc ' + xmldoc+'<br/>'+'<br/>');
