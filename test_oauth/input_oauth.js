@@ -103,8 +103,8 @@ document.write('my_request_token_string '+my_request_token_string+'<br/>');
 	xmlhttp.open('post',my_request_token_string,false);
 	xmlhttp.send(null);
 	xmldoc=xmlhttp.responseText;
-document.write('xmlhttp.responseText'+xmlhttp.responseText);
-document.write('xmldoc' + xmldoc);
+document.write('xmlhttp.responseText'+xmlhttp.responseText+'<br/>'+'<br/>');
+document.write('xmldoc ' + xmldoc+'<br/>'+'<br/>');
 document.write('<br/>'+'<br/>'+'<br/>');
 
 

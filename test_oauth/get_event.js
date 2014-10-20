@@ -29,17 +29,22 @@ var my_event_string='https://bitbucket.org/api/1.0/repositories/sd108806/bb/even
 +"oauth_version="+myoauth.version+"&"
 +'oauth_consumer_key='+myoauth.consumer.public+'&'
 +"oauth_signature="+myoauth.signature
-
-
-
 document.write('my_event_string  ' + my_event_string+'<br/>');
 
 
+	
+	var xmlhttp=new XMLHttpRequest();
+	xmlhttp.open('post',my_request_token_string,false);
+	xmlhttp.send(null);
+	xmldoc=xmlhttp.responseText;
+document.write('xmlhttp.responseText'+xmlhttp.responseText+'<br/>'+'<br/>');
+document.write('xmldoc ' + xmldoc+'<br/>'+'<br/>');
+document.write('<br/>'+'<br/>'+'<br/>');
 
 
 
-
-
+document.write('xmldoc.count  ' + xmldoc.count+ '<br/>');
+document.write('xmldoc.events[0].commits.description  ' + xmldoc.events[0].commits.description+ '<br/>');
 
 
 
