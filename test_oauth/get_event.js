@@ -50,7 +50,7 @@ document.write('request is success  ' + '<br/>');
 
 document.write('xmldoc  ' + xmldoc  +'<br/>'+'<br/>'+'<br/>');
 
-var obj = str.parseJSON();
+var obj = eval('(' + xmldoc + ')'); ;
 
 
 document.write('obj.count  ' +'<br/>'+ obj.count+ '<br/>'+ '<br/>'+ '<br/>');
