@@ -56,7 +56,7 @@ var obj = eval('(' + xmldoc + ')'); ;
 document.write('obj.count  ' +'<br/>'+ obj.count+ '<br/>'+ '<br/>'+ '<br/>');
 
 
-document.write('obj.events[0].commits.description  ' + obj.events[0].commits.description+ '<br/>');
+document.write('obj.events[0].description.commits.description  ' + obj.events[0].description.commits.description+ '<br/>');
 
 }
 
